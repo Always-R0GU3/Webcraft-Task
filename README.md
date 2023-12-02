@@ -1,1 +1,1 @@
-WebCraft Task Link: https://github.com/Always-R0GU3/Webcraft-Task
+WebCraft Task Link: https://always-r0gu3.github.io/Webcraft-Task/
