@@ -1,0 +1,99 @@
+*{
+    height: max-content;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 8%;
+    padding-top: 4%;
+}
+
+.image{
+    width: 30%;
+    height: 70%;
+    justify-content: center;
+}
+
+.div1{
+    color: rgb(61, 193, 158);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 100px;
+}
+
+.whitetext{
+    color: white;
+    width: 70%;
+}
+
+.developer{
+    color: rgb(61, 193, 158);
+
+}
+
+button{
+    background-color: transparent;
+    border-color: rgb(61, 193, 158);
+    color: rgb(61, 193, 158);
+    width: 100px;
+    height: 35px;
+    font-size: large;
+}
+
+button:hover{
+    background-color: rgb(61, 193, 158);
+    color: black;
+    border-color: transparent;
+}
+
+#para{
+    font-family: serif;
+}
+
+@media (min-width: 200px) and (max-width: 950px) {
+    *{
+        height: min-content;
+        width: auto;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0%;
+        align-items: center;
+        margin-top: 20%;
+        padding-top: 0%;
+        
+    }
+    .image{
+        align-items: center;
+        margin: 5% 0% 0% 0%;
+        width: 50%;
+    }
+    .name{
+        text-align: center;
+    }
+    button{
+        justify-content: center;
+    }
+    .whitetext{
+        width: 100%;
+        justify-content: center;
+        margin-right: 20%;
+        text-align: center;
+    }
+    .div1{
+        padding-left: 0%;
+        text-align: center;
+    }
+    .developer{
+        text-align: center;
+    }
+    #para{
+        text-align: justify;
+    }
+}
